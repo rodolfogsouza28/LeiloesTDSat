@@ -171,6 +171,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         }
         catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this,"O valor deve ser numérico.");
+            cadastroValor.setText("");
         } catch (HeadlessException e) {
             JOptionPane.showMessageDialog(this,"Erro ao cadastrar: " + e.getMessage());
         }
